@@ -1,3 +1,4 @@
+import 'package:firebase_chat_app/login.dart';
 import 'package:firebase_chat_app/signin_demo.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: SignInDemo(),
+      home: LoginScreen(title: 'Chat demo'),
     );
   }
 }
