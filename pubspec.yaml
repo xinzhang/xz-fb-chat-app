@@ -40,6 +40,10 @@ dependencies:
     cached_network_image: 2.2.0+1
     intl: 0.16.1
 
+    firebase_messaging: 6.0.13
+    flutter_local_notifications: 1.4.0
+    photo_view: ^0.5.0
+
 dev_dependencies:
     flutter_test:
         sdk: flutter

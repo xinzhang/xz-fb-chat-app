@@ -1,5 +1,4 @@
 import 'package:firebase_chat_app/login.dart';
-import 'package:firebase_chat_app/signin_demo.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
@@ -14,6 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter chat app',
       theme: ThemeData(
         primarySwatch: Colors.blue,
